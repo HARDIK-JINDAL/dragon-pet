@@ -1,12 +1,4 @@
-# orange_dino_pet_smooth.py
-# Smooth, non-jittery GIF desktop pet for Windows
-# - Uses first .gif in folder (dino.gif recommended)
-# - Smooth float-based X movement toward random targets (short pauses allowed)
-# - Bobbing, bounce on click
-# - No persistent system changes; stops when you stop the script
-#
-# Requirements:
-# pip install pyqt5 pillow
+
 
 import sys, os, glob, io, math, random, time, traceback
 from PIL import Image, ImageOps
@@ -312,3 +304,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
